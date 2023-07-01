@@ -1,0 +1,56 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "GNB": {
+    "description": "Auto imported from components/GNB.vue"
+  },
+  "GlobalArticleCard": {
+    "description": "Auto imported from components/GlobalArticleCard.vue"
+  },
+  "Searchbar": {
+    "description": "Auto imported from components/Searchbar.vue"
+  },
+  "ArticleBreadcrumb": {
+    "description": "Auto imported from components/Article/Breadcrumb.vue"
+  },
+  "ArticleComment": {
+    "description": "Auto imported from components/Article/Comment.vue"
+  },
+  "ArticleCommentList": {
+    "description": "Auto imported from components/Article/CommentList.vue"
+  },
+  "ArticleContentCard": {
+    "description": "Auto imported from components/Article/ContentCard.vue"
+  },
+  "ArticleInputComment": {
+    "description": "Auto imported from components/Article/InputComment.vue"
+  },
+  "ArticleRecommendArticleList": {
+    "description": "Auto imported from components/Article/RecommendArticleList.vue"
+  },
+  "CompanyCard": {
+    "description": "Auto imported from components/CompanyReview/CompanyCard.vue"
+  },
+  "CompanyReviewHeroSection": {
+    "description": "Auto imported from components/CompanyReview/HeroSection.vue"
+  },
+  "CompanyReviewSection": {
+    "description": "Auto imported from components/CompanyReview/ReviewSection.vue"
+  },
+  "MainBoardCard": {
+    "description": "Auto imported from components/Main/BoardCard.vue"
+  },
+  "MainRealtimeFamousCompany": {
+    "description": "Auto imported from components/Main/RealtimeFamousCompany.vue"
+  },
+  "SearchResultCompanyInfoCard": {
+    "description": "Auto imported from components/SearchResult/CompanyInfoCard.vue"
+  },
+  "ModalLogin": {
+    "description": "Auto imported from components/Modal/Login.vue"
+  },
+  "ModalWriting": {
+    "description": "Auto imported from components/Modal/Writing.vue"
+  }
+}
