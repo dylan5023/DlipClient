@@ -10,7 +10,6 @@
         <img src="" alt="" />
       </div>
     </div>
-    <GNB />
   </div>
 </template>
 <script>
@@ -19,4 +18,9 @@ export default {
   computed: { ...mapState(["modal"]) },
 };
 </script>
-<style></style>
+<style lang="scss" scoped>
+#login-modal {
+  background: white;
+  width: 520px;
+}
+</style>

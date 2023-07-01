@@ -17,16 +17,16 @@
   </nav>
 </template>
 <script>
-import SmallSerchbar from "@/components/GNB/SmallSerchbar";
+import SmallSearchbar from "@/components/GNB/SmallSearchbar";
 import LoginModal from "@/components/Modal/Login";
 import WritingModal from "@/components/Modal/Writing";
 import { mapState } from "vuex";
 
 export default {
   components: {
+    SmallSearchbar,
     LoginModal,
     WritingModal,
-    SmallSerchbar,
   },
   computed: {
     ...mapState(["user"]),
