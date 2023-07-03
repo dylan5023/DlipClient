@@ -3,7 +3,7 @@
     <nav>
       <div class="side-block">
         <nuxt-link to="/" id="logo-btn">
-          <img src="/logo/main.png" alt="블라인드 로고" />
+          <img src="/logo/main.png" alt="D-lip" />
         </nuxt-link>
         <nuxt-link
           to="/"
@@ -86,6 +86,9 @@ nav {
     align-items: center;
     #logo-btn {
       margin-right: 60px;
+    }
+    img {
+      border: 1px solid green;
     }
     .text-menu {
       color: #222;
