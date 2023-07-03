@@ -11,6 +11,15 @@
   "Searchbar": {
     "description": "Auto imported from components/Searchbar.vue"
   },
+  "CompanyCard": {
+    "description": "Auto imported from components/CompanyReview/CompanyCard.vue"
+  },
+  "CompanyReviewHeroSection": {
+    "description": "Auto imported from components/CompanyReview/HeroSection.vue"
+  },
+  "CompanyReviewSection": {
+    "description": "Auto imported from components/CompanyReview/ReviewSection.vue"
+  },
   "ArticleBreadcrumb": {
     "description": "Auto imported from components/Article/Breadcrumb.vue"
   },
@@ -29,23 +38,11 @@
   "ArticleRecommendArticleList": {
     "description": "Auto imported from components/Article/RecommendArticleList.vue"
   },
-  "CompanyCard": {
-    "description": "Auto imported from components/CompanyReview/CompanyCard.vue"
-  },
-  "CompanyReviewHeroSection": {
-    "description": "Auto imported from components/CompanyReview/HeroSection.vue"
-  },
-  "CompanyReviewSection": {
-    "description": "Auto imported from components/CompanyReview/ReviewSection.vue"
-  },
   "GNBSmallSearchbar": {
     "description": "Auto imported from components/GNB/SmallSearchbar.vue"
   },
-  "ModalLogin": {
-    "description": "Auto imported from components/Modal/Login.vue"
-  },
-  "ModalWriting": {
-    "description": "Auto imported from components/Modal/Writing.vue"
+  "MainBestBoardCard": {
+    "description": "Auto imported from components/Main/BestBoardCard.vue"
   },
   "MainBoardCard": {
     "description": "Auto imported from components/Main/BoardCard.vue"
@@ -55,5 +52,11 @@
   },
   "SearchResultCompanyInfoCard": {
     "description": "Auto imported from components/SearchResult/CompanyInfoCard.vue"
+  },
+  "ModalLogin": {
+    "description": "Auto imported from components/Modal/Login.vue"
+  },
+  "ModalWriting": {
+    "description": "Auto imported from components/Modal/Writing.vue"
   }
 }

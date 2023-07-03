@@ -1,13 +1,19 @@
 <template>
-  <GNB />
+  <div class="main-container">
+    <main>
+      <Searchbar />
+      <BoardCard />
+    </main>
+  </div>
 </template>
 
 <script>
-import GNB from "@/components/GNB";
 export default {
-  comments: {
-    GNB,
-  },
   name: "IndexPage",
 };
 </script>
+<style>
+.main-container {
+  display: flex;
+}
+</style>
