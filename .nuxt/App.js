@@ -6,7 +6,9 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '../assets/global.css'
+import '../assets/global.scss'
+
+import '../assets/board.scss'
 
 import _6f6c098b from '../layouts/default.vue'
 

@@ -12,17 +12,21 @@
         />
       </div>
     </main>
+    <RealtimeFamousCompany />
   </div>
 </template>
 
 <script>
 import BestBoardCard from "@/components/Main/BestBoardCard";
 import BoardCard from "@/components/Main/BoardCard";
+import RealtimeFamousCompany from "@/components/Main/RealtimeFamousCompany";
+
 export default {
   name: "IndexPage",
   components: {
     BestBoardCard,
     BoardCard,
+    RealtimeFamousCompany,
   },
   data() {
     return {

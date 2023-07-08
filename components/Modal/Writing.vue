@@ -1,5 +1,5 @@
 <template>
-  <div>wiriting</div>
+  <div class="modal-outside"></div>
 </template>
 <script>
 export default {};
