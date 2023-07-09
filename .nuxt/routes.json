@@ -3,14 +3,12 @@
     "name": "company",
     "path": "/company",
     "component": "/Users/dylank/dylan/Blind/client/pages/company.vue",
-    "chunkName": "pages/company",
-    "_name": "_21fea733"
+    "chunkName": "pages/company"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/dylank/dylan/Blind/client/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_7d057088"
+    "chunkName": "pages/index"
   }
 ]

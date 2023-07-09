@@ -4,7 +4,7 @@
       <div class="head">
         <h5>
           {{
-            modal.login.directLogin ? "Login" : "Blind OTP safe authentication"
+            modal.login.directLogin ? "Login" : "D-lip OTP safe authentication"
           }}
         </h5>
         <a
@@ -16,12 +16,12 @@
       </div>
       <div v-if="!modal.login.directLogin" class="body">
         <p>
-          Main page of Blind app > If you enter the generated 8-digit one-time
+          Main page of D-lip app > If you enter the generated 8-digit one-time
           authentication code in the "Blind Web Login" menu on the My Page of
           the Blind app, you will be able to use all the features on the web as
           well.
         </p>
-        <div class="info">Bilnd OTP</div>
+        <div class="info">D-lip OTP</div>
         <button class="otp-btn">U - 460 - 6051</button>
         <div class="left-time">Remain Time: {{ displayTime }}</div>
       </div>
@@ -40,7 +40,7 @@
       </div>
       <div v-if="!modal.login.directLogin" class="foot">
         <a @click.prevent="$store.commit('modal/SET_LOGIN_MODAL_DIRECT_LOGIN')"
-          >Are you new to Blind?</a
+          >Are you new to D-lip?</a
         >
       </div>
     </div>

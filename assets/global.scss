@@ -2,33 +2,22 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-
 a.active {
   font-weight: bold;
 }
-
 button {
   cursor: pointer;
 }
-img {
-  width: 15vw;
-  height: 10vh;
-  /* border: 1px solid green; */
-}
-
 .hide {
   display: none;
 }
-
 picture {
   width: 100%;
   max-width: 450px;
+  & > img {
+    max-width: inherit;
+  }
 }
-
-picture > img {
-  max-width: inherit;
-}
-
 .modal-outside {
   position: fixed;
   top: 0;
@@ -39,27 +28,24 @@ picture > img {
   display: grid;
   place-content: center;
   z-index: 1;
-}
-
-.modal-outside .head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: rgb(34, 34, 34);
-  font-size: 18px;
-  font-weight: 700;
-  padding: 23px 30px;
-  border-bottom: solid 1px rgb(223, 225, 228);
-}
-
-.modal-outside .head h5 {
-  margin: 0;
-}
-
-.modal-outside .head .close-btn > img {
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 23px 30px;
+    border-bottom: solid 1px rgb(223, 225, 228);
+    h5 {
+      margin: 0;
+    }
+    .close-btn > img {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+  }
 }
 
 .btn {
@@ -71,8 +57,7 @@ picture > img {
   font-weight: 400;
   color: #fff;
   border: none;
-}
-
-.btn.confirm {
-  background-color: #222;
+  &.confirm {
+    background-color: #222;
+  }
 }

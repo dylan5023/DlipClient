@@ -12,12 +12,13 @@ export { default as ArticleContentCard } from '../../components/Article/ContentC
 export { default as ArticleInputComment } from '../../components/Article/InputComment.vue'
 export { default as ArticleRecommendArticleList } from '../../components/Article/RecommendArticleList.vue'
 export { default as GNBSmallSearchbar } from '../../components/GNB/SmallSearchbar.vue'
+export { default as ModalConfirm } from '../../components/Modal/Confirm.vue'
+export { default as ModalLogin } from '../../components/Modal/Login.vue'
+export { default as ModalWriting } from '../../components/Modal/Writing.vue'
 export { default as MainBestBoardCard } from '../../components/Main/BestBoardCard.vue'
 export { default as MainBoardCard } from '../../components/Main/BoardCard.vue'
 export { default as MainRealtimeFamousCompany } from '../../components/Main/RealtimeFamousCompany.vue'
 export { default as SearchResultCompanyInfoCard } from '../../components/SearchResult/CompanyInfoCard.vue'
-export { default as ModalLogin } from '../../components/Modal/Login.vue'
-export { default as ModalWriting } from '../../components/Modal/Writing.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

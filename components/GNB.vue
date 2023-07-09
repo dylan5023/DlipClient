@@ -24,7 +24,7 @@
         }}</a>
       </div>
       <LoginModal />
-      <!-- <WritingModal /> -->
+      <WritingModal />
     </nav>
   </div>
 </template>
@@ -88,7 +88,10 @@ nav {
       margin-right: 60px;
     }
     img {
-      border: 1px solid green;
+      // width: 80%;
+      height: 10vh;
+
+      // border: 1px solid green;
     }
     .text-menu {
       color: #222;

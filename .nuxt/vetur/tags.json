@@ -41,6 +41,15 @@
   "GNBSmallSearchbar": {
     "description": "Auto imported from components/GNB/SmallSearchbar.vue"
   },
+  "ModalConfirm": {
+    "description": "Auto imported from components/Modal/Confirm.vue"
+  },
+  "ModalLogin": {
+    "description": "Auto imported from components/Modal/Login.vue"
+  },
+  "ModalWriting": {
+    "description": "Auto imported from components/Modal/Writing.vue"
+  },
   "MainBestBoardCard": {
     "description": "Auto imported from components/Main/BestBoardCard.vue"
   },
@@ -52,11 +61,5 @@
   },
   "SearchResultCompanyInfoCard": {
     "description": "Auto imported from components/SearchResult/CompanyInfoCard.vue"
-  },
-  "ModalLogin": {
-    "description": "Auto imported from components/Modal/Login.vue"
-  },
-  "ModalWriting": {
-    "description": "Auto imported from components/Modal/Writing.vue"
   }
 }
