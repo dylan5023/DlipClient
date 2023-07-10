@@ -6,6 +6,9 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _21fea733 = () => interopDefault(import('../pages/company.vue' /* webpackChunkName: "pages/company" */))
 const _7d057088 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _75d93be5 = () => interopDefault(import('../pages/post/_key.vue' /* webpackChunkName: "pages/post/_key" */))
+const _0dbb7674 = () => interopDefault(import('../pages/search/_query.vue' /* webpackChunkName: "pages/search/_query" */))
+const _550183ee = () => interopDefault(import('../pages/topics/_id.vue' /* webpackChunkName: "pages/topics/_id" */))
 
 const emptyFn = () => {}
 
@@ -26,6 +29,18 @@ export const routerOptions = {
     path: "/",
     component: _7d057088,
     name: "index"
+  }, {
+    path: "/post/:key?",
+    component: _75d93be5,
+    name: "post-key"
+  }, {
+    path: "/search/:query?",
+    component: _0dbb7674,
+    name: "search-query"
+  }, {
+    path: "/topics/:id?",
+    component: _550183ee,
+    name: "topics-id"
   }],
 
   fallback: false

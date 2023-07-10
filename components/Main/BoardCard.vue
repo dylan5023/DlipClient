@@ -12,7 +12,7 @@
             id: slug,
           },
         }"
-        >more ></nuxt-link
+        >More ></nuxt-link
       >
     </div>
     <div class="body">

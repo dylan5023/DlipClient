@@ -1,6 +1,6 @@
 <template>
   <div class="wrap-search">
-    <img class="search-icon" src="/icon/search.png" alt="Search" />
+    <img class="search-icon" src="/icon/search.png" alt="serch" />
     <input type="text" />
   </div>
 </template>

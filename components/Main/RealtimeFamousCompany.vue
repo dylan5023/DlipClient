@@ -10,7 +10,7 @@
     <p>
       <InfoIcon size="1x" />
       <span style="margin-left: 5px"
-        >Ranking of most searched companies on D-lip</span
+        >Ranking of most searched companies in D-lip</span
       >
     </p>
   </aside>

@@ -3,12 +3,35 @@
     "name": "company",
     "path": "/company",
     "component": "/Users/dylank/dylan/Blind/client/pages/company.vue",
-    "chunkName": "pages/company"
+    "chunkName": "pages/company",
+    "_name": "_21fea733"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/dylank/dylan/Blind/client/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_7d057088"
+  },
+  {
+    "name": "post-key",
+    "path": "/post/:key?",
+    "component": "/Users/dylank/dylan/Blind/client/pages/post/_key.vue",
+    "chunkName": "pages/post/_key",
+    "_name": "_75d93be5"
+  },
+  {
+    "name": "search-query",
+    "path": "/search/:query?",
+    "component": "/Users/dylank/dylan/Blind/client/pages/search/_query.vue",
+    "chunkName": "pages/search/_query",
+    "_name": "_0dbb7674"
+  },
+  {
+    "name": "topics-id",
+    "path": "/topics/:id?",
+    "component": "/Users/dylank/dylan/Blind/client/pages/topics/_id.vue",
+    "chunkName": "pages/topics/_id",
+    "_name": "_550183ee"
   }
 ]

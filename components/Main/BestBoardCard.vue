@@ -3,9 +3,9 @@
     <div class="head">
       <div class="title-side">
         <div class="board-icon"></div>
-        <h2>Best topic</h2>
+        <h2>Topic Recommend</h2>
       </div>
-      <nuxt-link
+      <!-- <nuxt-link
         :to="{
           name: 'topics-id',
           params: {
@@ -13,23 +13,23 @@
           },
         }"
         >more ></nuxt-link
-      >
+      > -->
     </div>
     <div class="body">
       <ul class="article-list">
-        <li v-for="a in articleList" :key="a._id">
+        <li v-for="article in articleList" :key="article._id">
           <div class="article-title">
-            <span class="board-tag">{{ boardList[a.board] }}</span>
-            <span>{{ a.title }}</span>
+            <span class="board-tag">{{ boardList[article.board] }}</span>
+            <span>{{ article.title }}</span>
           </div>
           <div class="count-display">
             <div class="count-item">
               <ThumbsUpIcon size="1x" class="icon" />
-              <span>{{ a.thumbupCount }}</span>
+              <span>{{ article.thumbupCount }}</span>
             </div>
             <div class="count-item">
               <MessageCircleIcon size="1x" class="icon" />
-              <span>{{ a.commentCount }}</span>
+              <span>{{ article.commentCount }}</span>
             </div>
           </div>
         </li>

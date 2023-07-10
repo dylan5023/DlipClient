@@ -51,7 +51,6 @@
           <BarChart2Icon class="icon" />
           <AtSignIcon class="icon" />
           <HashIcon class="icon" />
-          <!-- <input type="file" ref="img" @change="uploadImage" class="hide" /> -->
         </div>
       </div>
     </div>
@@ -101,18 +100,6 @@ export default {
     this.getBoardList();
   },
   methods: {
-    async uploadImage() {
-      let formData = new FormData();
-      let file = this.$refs.img.files[0];
-      formData.append("file", file);
-      setTimeout(async () => {
-        const data = await this.$api.$post("/upload", formData);
-        if (!data || data.error) {
-          return;
-        }
-        this.imgFile = data.key;
-      }, 300);
-    },
     async getBoardList() {
       const data = await this.$api.$get("/board/list");
       if (!Array.isArray(data)) {
